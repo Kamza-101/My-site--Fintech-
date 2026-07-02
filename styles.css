@@ -1,0 +1,138 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap');
+
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background-color: rgb(22, 22, 22);
+            background-image: linear-gradient(rgba(73, 71, 71, 0.8), rgba(255, 255, 255, 0.8)), url("chels.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(7, 6, 6);
+        }
+
+        ul li {
+            float: right;
+        }
+
+        ul li a {
+            display: block;
+            color: rgb(72, 174, 187);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: rgb(240, 238, 238);
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif; 
+            font-size: 3rem; 
+            color: white;
+            text-align: center;
+            background-color: rgb(3, 3, 3);
+            border: 3px solid rgb(15, 20, 3);
+            border-radius: 8px;
+            width: fit-content; 
+            margin: 0;               
+            padding: 15px 30px; 
+        }
+
+        p.solid {
+            outline-style: solid;
+        }
+
+        .opening {
+            max-width: 700px; 
+            font-size: 1.125rem; 
+            line-height: 1.7; 
+            text-align: center; 
+            color: rgb(22, 59, 68);  
+            background-color: rgb(174, 182, 189); 
+            margin: 0;               
+            padding: 30px;           
+            border-radius: 12px;     
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+        }
+
+        footer {
+            margin-top: auto; 
+            background-color: rgb(7, 6, 6); 
+            color: rgb(51, 129, 160);
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;     
+            gap: 30px;               
+            flex: 1;                 
+            padding: 40px 20px;
+        }
+
+       
+        .content {
+            text-align: left;
+        }
+
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: rgb(15, 20, 3);
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 0.95rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: black;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+ 
+        hr {
+            border: 0;
+            border-top: 1px solid rgb(4, 9, 10);
+            margin: 20px 0;
+        }
+
+        dt {
+            margin-top: 15px;
+            color: rgb(15, 20, 3);
+        }
+
+        dd {
+            margin-left: 0;
+            padding-left: 15px;
+            border-left: 3px solid rgb(72, 174, 187);
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
